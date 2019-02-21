@@ -180,7 +180,7 @@ def update_aliens(ai_settings, screen, stats, sb, ship, aliens, bullets):
 	# Look for aliens hitting the bottom of the screen.
 	check_aliens_bottom(ai_settings, screen, stats, sb, ship, aliens, bullets)
 
-def ship_hit(ai_settings, stats, screen, ship, aliens, bullets):
+def ship_hit(ai_settings, screen, stats, sb, ship, aliens, bullets):
 	"""Respond to ship being hit by alien."""
 	if stats.ships_left > 1:
 
